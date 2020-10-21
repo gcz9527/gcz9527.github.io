@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>NCE_1</title>
-    <url>/2020/10/21/NCE-1/</url>
-    <content><![CDATA[<h2 id="Lesson-1-Excuse-me"><a href="#Lesson-1-Excuse-me" class="headerlink" title="Lesson 1 Excuse me !"></a>Lesson 1 Excuse me !</h2><p>Excuse me!</p>
-<p>Yes?</p>
-<p>Is this your handbag?</p>
-<p>Pardon?</p>
-<p>Is this your handbag?</p>
-<p>Yes,it is.</p>
-<p>Thank you very much.</p>
- <a id="more"></a>
-
-<h2 id="New-Word-and-expressions"><a href="#New-Word-and-expressions" class="headerlink" title="New Word and expressions"></a>New Word and expressions</h2><p>excuse v.原谅</p>
-<p>me pron.我（宾格）</p>
-<p>yes adv.是的</p>
-<p>is v.be 动词现在时第三人称单数</p>
-<p>this pron.这</p>
-<p>your  pron.你的，你们的</p>
-<p>handbag n.(女用)手提包</p>
-<p>pardon int.原谅，请再说一遍</p>
-<p>it porn.它</p>
-<p>thank you 感谢你(们)</p>
-<p>very much 非常地   </p>
-]]></content>
-      <categories>
-        <category>新概念英语</category>
-      </categories>
-      <tags>
-        <tag>《新概念英语第一册》</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown语法</title>
     <url>/2020/10/20/Markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6> <a id="more"></a>
@@ -122,5 +91,36 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>NCE_1</title>
+    <url>/2020/10/21/NCE-1/</url>
+    <content><![CDATA[<h2 id="Lesson-1-Excuse-me"><a href="#Lesson-1-Excuse-me" class="headerlink" title="Lesson 1 Excuse me !"></a>Lesson 1 Excuse me !</h2><p>Excuse me!</p>
+<p>Yes?</p>
+<p>Is this your handbag?</p>
+<p>Pardon?</p>
+<p>Is this your handbag?</p>
+<p>Yes,it is.</p>
+<p>Thank you very much.</p>
+ <a id="more"></a>
+
+<h2 id="New-Word-and-expressions"><a href="#New-Word-and-expressions" class="headerlink" title="New Word and expressions"></a>New Word and expressions</h2><p>excuse v.原谅</p>
+<p>me pron.我（宾格）</p>
+<p>yes adv.是的</p>
+<p>is v.be 动词现在时第三人称单数</p>
+<p>this pron.这</p>
+<p>your  pron.你的，你们的</p>
+<p>handbag n.(女用)手提包</p>
+<p>pardon int.原谅，请再说一遍</p>
+<p>it porn.它</p>
+<p>thank you 感谢你(们)</p>
+<p>very much 非常地   </p>
+]]></content>
+      <categories>
+        <category>新概念英语</category>
+      </categories>
+      <tags>
+        <tag>《新概念英语第一册》</tag>
+      </tags>
   </entry>
 </search>
