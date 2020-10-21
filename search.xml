@@ -73,21 +73,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo常用命令</title>
-    <url>/2020/10/21/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="1-新建文件"><a href="#1-新建文件" class="headerlink" title="1.新建文件"></a>1.新建文件</h2><p><code> hexo n [name]</code></p>
-<h2 id="2-本地操作"><a href="#2-本地操作" class="headerlink" title="2.本地操作"></a>2.本地操作</h2><p><code> hexo clean 清除</code></p>
-<p><code> hexo s 启动服务</code></p>
-<h2 id="3-提交仓库"><a href="#3-提交仓库" class="headerlink" title="3.提交仓库"></a>3.提交仓库</h2><p><code>hexo clean &amp; hexo deploy</code></p>
-]]></content>
-      <categories>
-        <category>规则</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NCE_1</title>
     <url>/2020/10/21/NCE-1/</url>
     <content><![CDATA[<h2 id="Lesson-1-Excuse-me"><a href="#Lesson-1-Excuse-me" class="headerlink" title="Lesson 1 Excuse me !"></a>Lesson 1 Excuse me !</h2><p>Excuse me!</p>
@@ -137,5 +122,20 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hexo常用命令</title>
+    <url>/2020/10/21/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="1-新建文件"><a href="#1-新建文件" class="headerlink" title="1.新建文件"></a>1.新建文件</h2><p><code> hexo n [name]</code></p>
+<h2 id="2-本地操作"><a href="#2-本地操作" class="headerlink" title="2.本地操作"></a>2.本地操作</h2><p><code> hexo clean 清除</code></p>
+<p><code> hexo s 启动服务</code></p>
+<h2 id="3-提交仓库"><a href="#3-提交仓库" class="headerlink" title="3.提交仓库"></a>3.提交仓库</h2><p><code>hexo clean &amp; hexo deploy</code></p>
+ <a id="more"></a>]]></content>
+      <categories>
+        <category>规则</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
