@@ -1,9 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown语法</title>
+    <url>/2020/10/20/Markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6> <a id="more"></a>
+
+<h2 id="2-段落"><a href="#2-段落" class="headerlink" title="2.段落"></a>2.段落</h2><p> 2*空格+回车</p>
+<h2 id="3-列表（-）"><a href="#3-列表（-）" class="headerlink" title="3.列表（* + -）"></a>3.列表（* + -）</h2><ul>
+<li><p>第一项</p>
+<ul>
+<li><p>第二项</p>
+<ul>
+<li>第三项</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-区块（-gt-）"><a href="#4-区块（-gt-）" class="headerlink" title="4.区块（&gt;）"></a>4.区块（&gt;）</h2><blockquote>
+<p>最外层</p>
+<blockquote>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="5-代码（-）"><a href="#5-代码（-）" class="headerlink" title="5.代码（````）"></a>5.代码（````）</h2><p><code> &lt;html&gt;&lt;/html&gt;</code>标签</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">​```</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>代码块<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="6-链接"><a href="#6-链接" class="headerlink" title="6.链接"></a>6.链接</h2><p>[链接名称]（链接地址）或者&lt;链接地址&gt;</p>
+<p>Google <a href="https://www.google.com/">Google</a></p>
+<h2 id="7-图片"><a href="#7-图片" class="headerlink" title="7.图片"></a>7.图片</h2><p><code> ![alt 属性文本]（图片地址 “可选标题”）</code></p>
+<p><img src="" alt="alt 属性文本"></p>
+<h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8.表格"></a>8.表格</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">​&#96;&#96;&#96;</span><br><span class="line">｜ 表头  ｜ 表头 ｜</span><br><span class="line">｜ ---  ｜ ---  ｜</span><br><span class="line">｜ 单元格｜ 单元格 ｜</span><br><span class="line">｜ 单元格 ｜ 单元格 ｜ </span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>——</td>
+<td>——</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="9-高级技巧"><a href="#9-高级技巧" class="headerlink" title="9.高级技巧"></a>9.高级技巧</h2><p> <a href="https://www.runoob.com/markdown/md-advance.html">Markdown高级技巧</a></p>
+]]></content>
+      <categories>
+        <category>规则</category>
+      </categories>
+      <tags>
+        <tag>Md语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NCE_1</title>
+    <url>/2020/10/21/NCE-1/</url>
+    <content><![CDATA[<h2 id="Lesson-1-Excuse-me"><a href="#Lesson-1-Excuse-me" class="headerlink" title="Lesson 1 Excuse me !"></a>Lesson 1 Excuse me !</h2><h4 id="Excuse-me"><a href="#Excuse-me" class="headerlink" title="Excuse me!"></a>Excuse me!</h4><h3 id="Yes"><a href="#Yes" class="headerlink" title="Yes?"></a>Yes?</h3><h3 id="Is-this-your-handbag"><a href="#Is-this-your-handbag" class="headerlink" title="Is this your handbag?"></a>Is this your handbag?</h3><h3 id="Pardon"><a href="#Pardon" class="headerlink" title="Pardon?"></a>Pardon?</h3><h3 id="Is-this-your-handbag-1"><a href="#Is-this-your-handbag-1" class="headerlink" title="Is this your handbag?"></a>Is this your handbag?</h3><h3 id="Yes-it-is"><a href="#Yes-it-is" class="headerlink" title="Yes,it is."></a>Yes,it is.</h3><h3 id="Thank-you-very-much"><a href="#Thank-you-very-much" class="headerlink" title="Thank you very much."></a>Thank you very much.</h3> <a id="more"></a>
+
+<hr>
+<h4 id="New-Word-and-expressions"><a href="#New-Word-and-expressions" class="headerlink" title="New Word and expressions"></a>New Word and expressions</h4><h5 id="excuse-v-原谅"><a href="#excuse-v-原谅" class="headerlink" title="excuse v.原谅"></a>excuse v.原谅</h5><h5 id="me-pron-我（宾格）"><a href="#me-pron-我（宾格）" class="headerlink" title="me pron.我（宾格）"></a>me pron.我（宾格）</h5><h5 id="yes-adv-是的"><a href="#yes-adv-是的" class="headerlink" title="yes adv.是的"></a>yes adv.是的</h5><h5 id="is-v-be-动词现在时第三人称单数"><a href="#is-v-be-动词现在时第三人称单数" class="headerlink" title="is v.be 动词现在时第三人称单数"></a>is v.be 动词现在时第三人称单数</h5><h5 id="this-pron-这"><a href="#this-pron-这" class="headerlink" title="this pron.这"></a>this pron.这</h5><h5 id="your-pron-你的，你们的"><a href="#your-pron-你的，你们的" class="headerlink" title="your  pron.你的，你们的"></a>your  pron.你的，你们的</h5><h5 id="handbag-n-女用-手提包"><a href="#handbag-n-女用-手提包" class="headerlink" title="handbag n.(女用)手提包"></a>handbag n.(女用)手提包</h5><h5 id="pardon-int-原谅，请再说一遍"><a href="#pardon-int-原谅，请再说一遍" class="headerlink" title="pardon int.原谅，请再说一遍"></a>pardon int.原谅，请再说一遍</h5><h5 id="it-porn-它"><a href="#it-porn-它" class="headerlink" title="it porn.它"></a>it porn.它</h5><h5 id="thank-you-感谢你-们"><a href="#thank-you-感谢你-们" class="headerlink" title="thank you 感谢你(们)"></a>thank you 感谢你(们)</h5><h5 id="very-much-非常地"><a href="#very-much-非常地" class="headerlink" title="very much 非常地"></a>very much 非常地</h5>]]></content>
+      <categories>
+        <category>新概念英语</category>
+      </categories>
+      <tags>
+        <tag>《新概念英语第一册》</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/10/20/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+ <a id="more"></a>
+
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -17,22 +105,5 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2020/10/20/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><h2 id="测试文档"><a href="#测试文档" class="headerlink" title="测试文档"></a>测试文档</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3> <a id="more"></a>
-<ul>
-<li>列表1</li>
-<li>列表2<br>a 字列表a<br>b 字列表b<br>[百度]（<a href="http://www.baidu.com)/">http://www.baidu.com）</a><br>![图片]（链接）<br><em>字腿是斜线的</em><br><strong>字体加粗</strong><br><code>&lt;html&gt;代码块&lt;/html&gt;</code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;多行代码块&lt;&#x2F;p&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Mad语法</category>
-      </categories>
-      <tags>
-        <tag>“语法”</tag>
-      </tags>
   </entry>
 </search>
