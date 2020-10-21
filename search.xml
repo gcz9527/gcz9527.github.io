@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Java基础</title>
+    <url>/2020/10/21/Java%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="1-Java基础"><a href="#1-Java基础" class="headerlink" title="1.Java基础"></a>1.Java基础</h1><p><code> 2020年10月21日</code></p>
+<h1 id="2-工具"><a href="#2-工具" class="headerlink" title="2.工具"></a>2.工具</h1><h1 id="3-类型"><a href="#3-类型" class="headerlink" title="3.类型"></a>3.类型</h1><h1 id="4-语句"><a href="#4-语句" class="headerlink" title="4.语句"></a>4.语句</h1><h1 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h1> <a id="more"></a>
+
+<p><code>每日进度  &gt; = 10P</code></p>
+<p><a href="https://www.bilibili.com/video/av59529105/?pikaqiu">视频地址</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java基础记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown语法</title>
     <url>/2020/10/20/Markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6> <a id="more"></a>
