@@ -84,25 +84,25 @@
 <h2 id="30P-整型变量和整型常量"><a href="#30P-整型变量和整型常量" class="headerlink" title="30P 整型变量和整型常量"></a>30P 整型变量和整型常量</h2><table>
 <thead>
 <tr>
-<th>类型</th>
-<th>占用存储空间</th>
+<th align="center">类型</th>
+<th align="center">占用存储空间</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>byte</td>
-<td>1字节</td>
+<td align="center">byte</td>
+<td align="center">1字节</td>
 </tr>
 <tr>
-<td>short</td>
-<td>2字节</td>
+<td align="center">short</td>
+<td align="center">2字节</td>
 </tr>
 <tr>
-<td>int</td>
-<td>4字节</td>
+<td align="center">int</td>
+<td align="center">4字节</td>
 </tr>
 <tr>
-<td>Long</td>
-<td>8字节</td>
+<td align="center">Long</td>
+<td align="center">8字节</td>
 </tr>
 </tbody></table>
 <p>八进制，以0开头；</p>
@@ -111,17 +111,17 @@
 <h2 id="31P-浮点型变量和BigDecimal的使用"><a href="#31P-浮点型变量和BigDecimal的使用" class="headerlink" title="31P 浮点型变量和BigDecimal的使用"></a>31P 浮点型变量和BigDecimal的使用</h2><table>
 <thead>
 <tr>
-<th>类型</th>
-<th>占用存储空间</th>
+<th align="center">类型</th>
+<th align="center">占用存储空间</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>float</td>
-<td>4字节</td>
+<td align="center">float</td>
+<td align="center">4字节</td>
 </tr>
 <tr>
-<td>double</td>
-<td>8字节</td>
+<td align="center">double</td>
+<td align="center">8字节</td>
 </tr>
 </tbody></table>
 <p>科学记数形式，314e2(3.14)、314E2（314.0）；</p>
@@ -129,65 +129,164 @@
 <h2 id="32P-字符类型"><a href="#32P-字符类型" class="headerlink" title="32P 字符类型"></a>32P 字符类型</h2><table>
 <thead>
 <tr>
-<th>类型</th>
-<th>占用存储空间</th>
+<th align="center">类型</th>
+<th align="center">占用存储空间</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Char</td>
-<td>2个字节</td>
+<td align="center">Char</td>
+<td align="center">2个字节</td>
 </tr>
 </tbody></table>
 <p>Unicode编码，允许有65536个字符；也可以采用十六进制的值表示；</p>
 <table>
 <thead>
 <tr>
-<th>转义符</th>
-<th>含义</th>
-<th>Unicode值</th>
+<th align="center">转义符</th>
+<th align="center">含义</th>
+<th align="center">Unicode值</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>\b</td>
-<td>推格(backspace)</td>
-<td>\u0008</td>
+<td align="center">\b</td>
+<td align="center">推格(backspace)</td>
+<td align="center">\u0008</td>
 </tr>
 <tr>
-<td>\n</td>
-<td>换行</td>
-<td>\u000a</td>
+<td align="center">\n</td>
+<td align="center">换行</td>
+<td align="center">\u000a</td>
 </tr>
 <tr>
-<td>\r</td>
-<td>回车</td>
-<td>\u000d</td>
+<td align="center">\r</td>
+<td align="center">回车</td>
+<td align="center">\u000d</td>
 </tr>
 <tr>
-<td>\t</td>
-<td>制表符(tab)</td>
-<td>\u0009</td>
+<td align="center">\t</td>
+<td align="center">制表符(tab)</td>
+<td align="center">\u0009</td>
 </tr>
 <tr>
-<td>\ “</td>
-<td>双引号</td>
-<td>\u0022</td>
+<td align="center">\ “</td>
+<td align="center">双引号</td>
+<td align="center">\u0022</td>
 </tr>
 <tr>
-<td>\ ‘</td>
-<td>单引号</td>
-<td>\u0027</td>
+<td align="center">\ ‘</td>
+<td align="center">单引号</td>
+<td align="center">\u0027</td>
 </tr>
 <tr>
-<td>\ \</td>
-<td>反斜杠</td>
-<td>\u005c</td>
+<td align="center">\ \</td>
+<td align="center">反斜杠</td>
+<td align="center">\u005c</td>
 </tr>
 </tbody></table>
 <h2 id="33P-布尔型"><a href="#33P-布尔型" class="headerlink" title="33P 布尔型"></a>33P 布尔型</h2><p>boolean类型有两个常量值，true和false，在内存中占一位；</p>
 <h2 id="34P-运算符"><a href="#34P-运算符" class="headerlink" title="34P 运算符"></a>34P 运算符</h2><p>无</p>
 <h2 id="35P-算数运算符"><a href="#35P-算数运算符" class="headerlink" title="35P 算数运算符"></a>35P 算数运算符</h2><p><code>+ - * / % 二元运算符</code></p>
 <p><code> ++、-- 一元运算符</code> </p>
-<h1 id="2020年10月27日"><a href="#2020年10月27日" class="headerlink" title="2020年10月27日"></a>2020年10月27日</h1><h2 id="36P-赋值"><a href="#36P-赋值" class="headerlink" title="36P 赋值"></a>36P 赋值</h2><h2 id="37P-关系运算符"><a href="#37P-关系运算符" class="headerlink" title="37P 关系运算符"></a>37P 关系运算符</h2><h2 id="38P-逻辑运算符"><a href="#38P-逻辑运算符" class="headerlink" title="38P 逻辑运算符"></a>38P 逻辑运算符</h2><h2 id="39P-位运算符"><a href="#39P-位运算符" class="headerlink" title="39P 位运算符"></a>39P 位运算符</h2><h2 id="40P-字符串连接"><a href="#40P-字符串连接" class="headerlink" title="40P 字符串连接"></a>40P 字符串连接</h2><h2 id="41P-条件运算符"><a href="#41P-条件运算符" class="headerlink" title="41P 条件运算符"></a>41P 条件运算符</h2><h2 id="42P-运算符优先级"><a href="#42P-运算符优先级" class="headerlink" title="42P 运算符优先级"></a>42P 运算符优先级</h2><h2 id="43P-自动类型转化"><a href="#43P-自动类型转化" class="headerlink" title="43P 自动类型转化"></a>43P 自动类型转化</h2><h2 id="44P-强制类型转化"><a href="#44P-强制类型转化" class="headerlink" title="44P 强制类型转化"></a>44P 强制类型转化</h2><h2 id="45P-基本类型常见错误"><a href="#45P-基本类型常见错误" class="headerlink" title="45P 基本类型常见错误"></a>45P 基本类型常见错误</h2><p><code>每日进度  &gt; = 5P</code></p>
+<h1 id="2020年10月27日"><a href="#2020年10月27日" class="headerlink" title="2020年10月27日"></a>2020年10月27日</h1><h2 id="36P-赋值及其扩展运算符"><a href="#36P-赋值及其扩展运算符" class="headerlink" title="36P 赋值及其扩展运算符"></a>36P 赋值及其扩展运算符</h2><p><code> 运算符 +=、-=、*=、/=、%=</code></p>
+<h2 id="37P-关系运算符"><a href="#37P-关系运算符" class="headerlink" title="37P 关系运算符"></a>37P 关系运算符</h2><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">==</td>
+<td align="center">等于</td>
+</tr>
+<tr>
+<td align="center">!=</td>
+<td align="center">不等于</td>
+</tr>
+<tr>
+<td align="center">&gt;</td>
+<td align="center">大于</td>
+</tr>
+<tr>
+<td align="center">&lt;</td>
+<td align="center">小于</td>
+</tr>
+<tr>
+<td align="center">&gt;=</td>
+<td align="center">大于或等于</td>
+</tr>
+<tr>
+<td align="center">&lt;=</td>
+<td align="center">小于或等于</td>
+</tr>
+</tbody></table>
+<h2 id="38P-逻辑运算符"><a href="#38P-逻辑运算符" class="headerlink" title="38P 逻辑运算符"></a>38P 逻辑运算符</h2><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">逻辑与 &amp;</td>
+<td align="center">两个都为true,结果为true</td>
+</tr>
+<tr>
+<td align="center">逻辑或|</td>
+<td align="center">两个有一个为true，结果为true</td>
+</tr>
+<tr>
+<td align="center">短路与&amp;&amp;</td>
+<td align="center">只要有一个为false，结果为false</td>
+</tr>
+<tr>
+<td align="center">短路或||</td>
+<td align="center">只要有一个为true，结果直接为true</td>
+</tr>
+<tr>
+<td align="center">逻辑非!</td>
+<td align="center">取反</td>
+</tr>
+<tr>
+<td align="center">逻辑异或^</td>
+<td align="center">相同为false，不同为true</td>
+</tr>
+</tbody></table>
+<h2 id="39P-位运算符"><a href="#39P-位运算符" class="headerlink" title="39P 位运算符"></a>39P 位运算符</h2><p>二进制位的运算；</p>
+<table>
+<thead>
+<tr>
+<th align="center">位运算符</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">～</td>
+<td align="center">取反</td>
+</tr>
+<tr>
+<td align="center">&amp;</td>
+<td align="center">按位与</td>
+</tr>
+<tr>
+<td align="center">｜</td>
+<td align="center">按位或</td>
+</tr>
+<tr>
+<td align="center">^</td>
+<td align="center">按位异或</td>
+</tr>
+<tr>
+<td align="center">&lt;&lt;</td>
+<td align="center">左移运算符，左移1位相当于乘2</td>
+</tr>
+<tr>
+<td align="center">&gt;&gt;</td>
+<td align="center">右移运算符，右移1位相当于除2取商</td>
+</tr>
+</tbody></table>
+<h2 id="40P-字符串连接"><a href="#40P-字符串连接" class="headerlink" title="40P 字符串连接"></a>40P 字符串连接</h2><p><code>字符串连接符+</code>；</p>
+<h2 id="41P-条件运算符"><a href="#41P-条件运算符" class="headerlink" title="41P 条件运算符"></a>41P 条件运算符</h2><h2 id="42P-运算符优先级"><a href="#42P-运算符优先级" class="headerlink" title="42P 运算符优先级"></a>42P 运算符优先级</h2><h2 id="43P-自动类型转化"><a href="#43P-自动类型转化" class="headerlink" title="43P 自动类型转化"></a>43P 自动类型转化</h2><h2 id="44P-强制类型转化"><a href="#44P-强制类型转化" class="headerlink" title="44P 强制类型转化"></a>44P 强制类型转化</h2><h2 id="45P-基本类型常见错误"><a href="#45P-基本类型常见错误" class="headerlink" title="45P 基本类型常见错误"></a>45P 基本类型常见错误</h2><p><code>每日进度  &gt; = 5P</code></p>
 <p><a href="https://www.bilibili.com/video/av59529105/?pikaqiu">视频地址</a></p>
 ]]></content>
       <categories>
