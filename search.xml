@@ -1,6 +1,317 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Java基础</title>
+    <url>/2020/10/21/Java%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h1 id="2020年10月"><a href="#2020年10月" class="headerlink" title="2020年10月"></a>2020年10月</h1><h2 id="如何学习Java300集"><a href="#如何学习Java300集" class="headerlink" title="如何学习Java300集"></a>如何学习Java300集</h2><p>学习价值观：</p>
+<p>知识体系建立为第一目标；</p>
+<p>遇到难点不纠结，一个月后再会看难点。</p>
+<h2 id="1-Java入门"><a href="#1-Java入门" class="headerlink" title="1.Java入门"></a>1.Java入门</h2><h4 id="1-1计算机发展史和未来方向"><a href="#1-1计算机发展史和未来方向" class="headerlink" title="1.1计算机发展史和未来方向"></a>1.1计算机发展史和未来方向</h4><p>计算机核心为：算法，语言是实现算法的工具；</p>
+<p>机器语言-&gt;汇编语言-&gt;高级语言</p>
+<h4 id="1-2多种编程语言介绍"><a href="#1-2多种编程语言介绍" class="headerlink" title="1.2多种编程语言介绍"></a>1.2多种编程语言介绍</h4><p>C语言、C++、Java语言、PHP、Object-C/Swift（苹果、JavaScript、Python、C#、Fortran、Basic</p>
+<h4 id="1-3Java的发展历史和未来"><a href="#1-3Java的发展历史和未来" class="headerlink" title="1.3Java的发展历史和未来"></a>1.3Java的发展历史和未来</h4><p>1991年，SUN公司的Green项目，Oak</p>
+<p>1996年，JDK1.0</p>
+<p>1998年，JDK1.2</p>
+<p>2014年，JDK8.0</p>
+<h4 id="1-4Java的核心优势和生态体系"><a href="#1-4Java的核心优势和生态体系" class="headerlink" title="1.4Java的核心优势和生态体系"></a>1.4Java的核心优势和生态体系</h4><p>核心优势：跨平台</p>
+ <a id="more"></a>
+
+<h4 id="1-6Java三大版本含义"><a href="#1-6Java三大版本含义" class="headerlink" title="1.6Java三大版本含义"></a>1.6Java三大版本含义</h4><p>JavaSE（Java Standard Edition）标准版，定位在个人计算机上的应用；</p>
+<p>JavaEE(Java Enterprise Edition) 企业版，定位在服务器端的应用；</p>
+<p>JavaME(Java Micro Edition)微型版，定位在消费电子产品的应用上；</p>
+<h4 id="1-7Java的特性和优势"><a href="#1-7Java的特性和优势" class="headerlink" title="1.7Java的特性和优势"></a>1.7Java的特性和优势</h4><p>跨平台/可移植性；</p>
+<p>安全性；</p>
+<p>面向对象性；</p>
+<p>简单性；</p>
+<p>高性能；</p>
+<p>分布式；</p>
+<p>多线程；</p>
+<p>健壮性；</p>
+<h4 id="1-8PJava应用程序的运行机制"><a href="#1-8PJava应用程序的运行机制" class="headerlink" title="1.8PJava应用程序的运行机制"></a>1.8PJava应用程序的运行机制</h4><p><code>源文件（*.java）-&gt;Java编辑器-&gt;字节码文件（*.class）</code></p>
+<p>运行在JRE，JRE运行在系统平台；</p>
+<p>Java是编译型+解释型的语言；</p>
+<h4 id="1-9JDK、JRE、JVM的作用和区别"><a href="#1-9JDK、JRE、JVM的作用和区别" class="headerlink" title="1.9JDK、JRE、JVM的作用和区别"></a>1.9JDK、JRE、JVM的作用和区别</h4><p>JVM（Java Vitual Machine）就是一个虚拟的用于执行bytecode字节码的虚拟计算机。</p>
+<p>Java Runtime Environment(JRE)包含：Java虚拟机、库函数、运行Java应用程序所必须的文件。</p>
+<p>Java Development Kit(JDK)包含JRE，以及增加编译器和调试器等用于程序开发的文件。</p>
+<p>包含关系：JDK&gt;JRE&gt;JVM </p>
+<p>JDK下载和安装</p>
+<p>1.下载JDK（对应系统版本）</p>
+<p>2.简单目录说明（bin、lib、src.zip）</p>
+<p>JDK环境变量PATH设置</p>
+<p>1.配置JAVA_HOME</p>
+<p>2.Windows配置Path（%JAVA_HOME%\bin;）</p>
+<p>Mac</p>
+<p>vim ~/.bash_profile 配置JDK地址</p>
+<h4 id="1-10控制台测试JDK安装和配置"><a href="#1-10控制台测试JDK安装和配置" class="headerlink" title="1.10控制台测试JDK安装和配置"></a>1.10控制台测试JDK安装和配置</h4><p>Windows: cmd 输入 java-version</p>
+<h4 id="1-11写出第一个Java程序"><a href="#1-11写出第一个Java程序" class="headerlink" title="1.11写出第一个Java程序"></a>1.11写出第一个Java程序</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Welcome</span></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;Hello word!&quot;</span>)；</span><br><span class="line">  &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>解释并运行：<code>java Welcome</code></p>
+<h4 id="1-12第一个Java程序详细解析"><a href="#1-12第一个Java程序详细解析" class="headerlink" title="1.12第一个Java程序详细解析"></a>1.12第一个Java程序详细解析</h4><p>1.Java大小写敏感的语言；</p>
+<p>2.一个源文件中至多只能声明一个public的类，其他类的个数不限。</p>
+<h4 id="1-13最常用的DOS命令"><a href="#1-13最常用的DOS命令" class="headerlink" title="1.13最常用的DOS命令"></a>1.13最常用的DOS命令</h4><p>1.cd 目录路径 进入一个目录</p>
+<p>2.cd .. 进入父目录</p>
+<p>3.dir 查看本目录下的文件和子目录列表</p>
+<p>4.cls 清楚屏幕命令</p>
+<p>5.上下键 查找敲过的命令</p>
+<p>6.Tab键 自动补齐命令</p>
+<h4 id="1-14常用开发工具介绍"><a href="#1-14常用开发工具介绍" class="headerlink" title="1.14常用开发工具介绍"></a>1.14常用开发工具介绍</h4><p>eclipse</p>
+<p>IntelliJ IDE</p>
+<p>NetBeans</p>
+<h4 id="1-15eclipse下载版本选择和使用"><a href="#1-15eclipse下载版本选择和使用" class="headerlink" title="1.15eclipse下载版本选择和使用"></a>1.15eclipse下载版本选择和使用</h4><p>Eclipse IDE for Java Developers（根据安装的JDK）</p>
+<p>eclipse下建立Java项目</p>
+<p>目录结构（src、bin、JRE）</p>
+<p>eclipse开发和运行Java程序</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Welcome</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// TODO Auto-generated method stub</span></span><br><span class="line">		System.out.println(<span class="string">&quot;Welcome Java&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="2数据类型和运算符"><a href="#2数据类型和运算符" class="headerlink" title="2数据类型和运算符"></a>2数据类型和运算符</h2><h4 id="2-1注释"><a href="#2-1注释" class="headerlink" title="2.1注释"></a>2.1注释</h4><p>单行注释： //</p>
+<p>多行注释：<code> 以/*开头，以*/结尾</code></p>
+<p>文档注释：<code> 以/**开头，以*/结尾</code></p>
+<h4 id="2-2标识符规则"><a href="#2-2标识符规则" class="headerlink" title="2.2标识符规则"></a>2.2标识符规则</h4><p>1.以字母、下划线、美元符号开头$开头，其他部分是字母、下划线、$、数字的任意组合；</p>
+<p>2.Java标识符大小写敏感，且长度无限制；</p>
+<p>3.标识符不可以是Java的关键字；</p>
+<p>4.类名首字母大写，方法和变量的标识符遵循驼峰命名原则；</p>
+<h4 id="2-3Java的关键字-保留字"><a href="#2-3Java的关键字-保留字" class="headerlink" title="2.3Java的关键字/保留字"></a>2.3Java的关键字/保留字</h4><p>边用边学边记</p>
+<h4 id="2-4变量的本质"><a href="#2-4变量的本质" class="headerlink" title="2.4变量的本质"></a>2.4变量的本质</h4><p>变量=可操作的存储空间；通过变量名来访问对应的存储空间，从而操作这个存储空间的值；</p>
+<h4 id="2-5变量的分类"><a href="#2-5变量的分类" class="headerlink" title="2.5变量的分类"></a>2.5变量的分类</h4><p>局部变量（local variable）方法或语句块内部定义的变量。生命周期是从声名位置开始到方法或语句块执行完毕为止；必须进行初始化操作；</p>
+<p>成员变量/实例变量（member variable）方法外部、类的内部定义的变量。从属于对象，生命周期伴随对象始终；可以默认初始化；</p>
+<p>静态变量/类变量（static variable）使用static定义，从属于类，生命周期伴随类始终，从类加载到卸载。</p>
+<h4 id="2-6常量（Constant）和final"><a href="#2-6常量（Constant）和final" class="headerlink" title="2.6常量（Constant）和final"></a>2.6常量（Constant）和final</h4><p>常量通常指的是一个固定值，使用final来定义一个常量，一旦被初始化以后就不能再修改；</p>
+<p>变量和常量命令规范，见名知意；</p>
+<p>常量命名采用大写字母和下划线的方式；</p>
+<p>方法名：首字母小写和驼峰原则；</p>
+<h4 id="2-7基本类型数据介绍"><a href="#2-7基本类型数据介绍" class="headerlink" title="2.7基本类型数据介绍"></a>2.7基本类型数据介绍</h4><p>数值型-byte、short、int、long、float、double</p>
+<p>字符型（文本型）-char</p>
+<p>布尔型-boolean</p>
+<h4 id="2-8整型变量和整型常量"><a href="#2-8整型变量和整型常量" class="headerlink" title="2.8整型变量和整型常量"></a>2.8整型变量和整型常量</h4><table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">占用存储空间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">byte</td>
+<td align="center">1字节</td>
+</tr>
+<tr>
+<td align="center">short</td>
+<td align="center">2字节</td>
+</tr>
+<tr>
+<td align="center">int</td>
+<td align="center">4字节</td>
+</tr>
+<tr>
+<td align="center">Long</td>
+<td align="center">8字节</td>
+</tr>
+</tbody></table>
+<p>八进制，以0开头；</p>
+<p>十六进制，以0x或0X开头；</p>
+<p>二进制，以0b或0B开头；</p>
+<h4 id="2-9浮点型变量和BigDecimal的使用"><a href="#2-9浮点型变量和BigDecimal的使用" class="headerlink" title="2.9浮点型变量和BigDecimal的使用"></a>2.9浮点型变量和BigDecimal的使用</h4><table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">占用存储空间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">float</td>
+<td align="center">4字节</td>
+</tr>
+<tr>
+<td align="center">double</td>
+<td align="center">8字节</td>
+</tr>
+</tbody></table>
+<p>科学记数形式，314e2(3.14)、314E2（314.0）；</p>
+<p>java.math包下两个类：BigInteger和BigDecimal可以处理任意长度的数值；</p>
+<h4 id="2-10字符类型"><a href="#2-10字符类型" class="headerlink" title="2.10字符类型"></a>2.10字符类型</h4><table>
+<thead>
+<tr>
+<th align="center">类型</th>
+<th align="center">占用存储空间</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Char</td>
+<td align="center">2个字节</td>
+</tr>
+</tbody></table>
+<p>Unicode编码，允许有65536个字符；也可以采用十六进制的值表示；</p>
+<table>
+<thead>
+<tr>
+<th align="center">转义符</th>
+<th align="center">含义</th>
+<th align="center">Unicode值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">\b</td>
+<td align="center">推格(backspace)</td>
+<td align="center">\u0008</td>
+</tr>
+<tr>
+<td align="center">\n</td>
+<td align="center">换行</td>
+<td align="center">\u000a</td>
+</tr>
+<tr>
+<td align="center">\r</td>
+<td align="center">回车</td>
+<td align="center">\u000d</td>
+</tr>
+<tr>
+<td align="center">\t</td>
+<td align="center">制表符(tab)</td>
+<td align="center">\u0009</td>
+</tr>
+<tr>
+<td align="center">\ “</td>
+<td align="center">双引号</td>
+<td align="center">\u0022</td>
+</tr>
+<tr>
+<td align="center">\ ‘</td>
+<td align="center">单引号</td>
+<td align="center">\u0027</td>
+</tr>
+<tr>
+<td align="center">\ \</td>
+<td align="center">反斜杠</td>
+<td align="center">\u005c</td>
+</tr>
+</tbody></table>
+<h4 id="2-11布尔型"><a href="#2-11布尔型" class="headerlink" title="2.11布尔型"></a>2.11布尔型</h4><p>boolean类型有两个常量值，true和false，在内存中占一位；</p>
+<h4 id="2-12算数运算符"><a href="#2-12算数运算符" class="headerlink" title="2.12算数运算符"></a>2.12算数运算符</h4><p><code>+ - * / % 二元运算符</code></p>
+<p><code> ++、-- 一元运算符</code> </p>
+<h4 id="2-13赋值及其扩展运算符"><a href="#2-13赋值及其扩展运算符" class="headerlink" title="2.13赋值及其扩展运算符"></a>2.13赋值及其扩展运算符</h4><p><code> 运算符 +=、-=、*=、/=、%=</code></p>
+<p>关系运算符</p>
+<table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">==</td>
+<td align="center">等于</td>
+</tr>
+<tr>
+<td align="center">!=</td>
+<td align="center">不等于</td>
+</tr>
+<tr>
+<td align="center">&gt;</td>
+<td align="center">大于</td>
+</tr>
+<tr>
+<td align="center">&lt;</td>
+<td align="center">小于</td>
+</tr>
+<tr>
+<td align="center">&gt;=</td>
+<td align="center">大于或等于</td>
+</tr>
+<tr>
+<td align="center">&lt;=</td>
+<td align="center">小于或等于</td>
+</tr>
+</tbody></table>
+<h4 id="2-14逻辑运算符"><a href="#2-14逻辑运算符" class="headerlink" title="2.14逻辑运算符"></a>2.14逻辑运算符</h4><table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">逻辑与 &amp;</td>
+<td align="center">两个都为true,结果为true</td>
+</tr>
+<tr>
+<td align="center">逻辑或|</td>
+<td align="center">两个有一个为true，结果为true</td>
+</tr>
+<tr>
+<td align="center">短路与&amp;&amp;</td>
+<td align="center">只要有一个为false，结果为false</td>
+</tr>
+<tr>
+<td align="center">短路或||</td>
+<td align="center">只要有一个为true，结果直接为true</td>
+</tr>
+<tr>
+<td align="center">逻辑非!</td>
+<td align="center">取反</td>
+</tr>
+<tr>
+<td align="center">逻辑异或^</td>
+<td align="center">相同为false，不同为true</td>
+</tr>
+</tbody></table>
+<h4 id="2-15位运算符"><a href="#2-15位运算符" class="headerlink" title="2.15位运算符"></a>2.15位运算符</h4><p>二进制位的运算；</p>
+<table>
+<thead>
+<tr>
+<th align="center">位运算符</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">～</td>
+<td align="center">取反</td>
+</tr>
+<tr>
+<td align="center">&amp;</td>
+<td align="center">按位与</td>
+</tr>
+<tr>
+<td align="center">｜</td>
+<td align="center">按位或</td>
+</tr>
+<tr>
+<td align="center">^</td>
+<td align="center">按位异或</td>
+</tr>
+<tr>
+<td align="center">&lt;&lt;</td>
+<td align="center">左移运算符，左移1位相当于乘2</td>
+</tr>
+<tr>
+<td align="center">&gt;&gt;</td>
+<td align="center">右移运算符，右移1位相当于除2取商</td>
+</tr>
+</tbody></table>
+<h4 id="2-16字符串连接"><a href="#2-16字符串连接" class="headerlink" title="2.16字符串连接"></a>2.16字符串连接</h4><p><code>字符串连接符+</code>；</p>
+<h4 id="2-17条件运算符"><a href="#2-17条件运算符" class="headerlink" title="2.17条件运算符"></a>2.17条件运算符</h4><p><code>X？Y：Z</code></p>
+<p>其中 x 为 boolean 类型表达式，先计算 x 的值，若为true，则整个运算的结果为表达式 y 的值，否则整个运算结果为表达式 z 的值。</p>
+<h1 id="2020年12月"><a href="#2020年12月" class="headerlink" title="2020年12月"></a>2020年12月</h1><h4 id="2-18运算符优先级"><a href="#2-18运算符优先级" class="headerlink" title="2.18运算符优先级"></a>2.18运算符优先级</h4><p><img src="/images/yxj.png" alt="yxj"></p>
+<p>逻辑非&gt;逻辑与&gt;逻辑或</p>
+<p>自动类型转化</p>
+<p>自动类型转换指的是容量小的数据类型可以自动转换为容量大的数据类型。</p>
+<p><img src="/images/zh.png" alt="yxj"></p>
+<p>强制类型转化</p>
+<p>强制类型转换，又被称为造型，用于显式的转换一个数值的类型。在有可能丢失信息的情况下进行的转换是通过造型来完成的，但可能造成精度降低或溢出。</p>
+<p><code> (type) var</code></p>
+<p>运算符“()”中的type表示将值var想要转换成的目标数据类型。当将一种类型强制转换成另一种类型，而又超出了目标类型的表数范围，就会被截断成为一个完全不同的值。</p>
+<p>基本类型常见错误</p>
+<p>操作比较大的数时，要留意是否溢出，尤其是整数操作时。</p>
+<p>L和l 的问题：不要命名名字为l的变量，l容易和1混淆。</p>
+<p><code>每日进度  &gt; = 5P</code></p>
+<p><a href="https://www.bilibili.com/video/av59529105/?pikaqiu">视频地址</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java基础记录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown语法</title>
     <url>/2020/10/20/Markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6> <a id="more"></a>
@@ -105,302 +416,6 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java基础</title>
-    <url>/2020/10/21/Java%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[<h1 id="2020年10月21日"><a href="#2020年10月21日" class="headerlink" title="2020年10月21日"></a>2020年10月21日</h1><h2 id="1P如何学习Java300集"><a href="#1P如何学习Java300集" class="headerlink" title="1P如何学习Java300集"></a>1P如何学习Java300集</h2><p>学习价值观：</p>
-<p>知识体系建立为第一目标；</p>
-<p>遇到难点不纠结，一个月后再会看难点。</p>
-<h1 id="2020年10月22日"><a href="#2020年10月22日" class="headerlink" title="2020年10月22日"></a>2020年10月22日</h1><h2 id="2P计算机发展史和未来方向"><a href="#2P计算机发展史和未来方向" class="headerlink" title="2P计算机发展史和未来方向"></a>2P计算机发展史和未来方向</h2><p>计算机核心为：算法，语言是实现算法的工具；</p>
-<p>机器语言-&gt;汇编语言-&gt;高级语言</p>
-<h2 id="3P多种编程语言介绍"><a href="#3P多种编程语言介绍" class="headerlink" title="3P多种编程语言介绍"></a>3P多种编程语言介绍</h2><p>C语言、C++、Java语言、PHP、Object-C/Swift（苹果、JavaScript、Python、C#、Fortran、Basic</p>
-<h2 id="4PJava的发展历史和未来"><a href="#4PJava的发展历史和未来" class="headerlink" title="4PJava的发展历史和未来"></a>4PJava的发展历史和未来</h2><p>1991年，SUN公司的Green项目，Oak</p>
-<p>1996年，JDK1.0</p>
-<p>1998年，JDK1.2</p>
-<p>2014年，JDK8.0</p>
-<h2 id="5PJava的核心优势和生态体系"><a href="#5PJava的核心优势和生态体系" class="headerlink" title="5PJava的核心优势和生态体系"></a>5PJava的核心优势和生态体系</h2><p>核心优势：跨平台</p>
- <a id="more"></a>
-
-<h1 id="2020年10月23日"><a href="#2020年10月23日" class="headerlink" title="2020年10月23日"></a>2020年10月23日</h1><h2 id="6PJava三大版本含义"><a href="#6PJava三大版本含义" class="headerlink" title="6PJava三大版本含义"></a>6PJava三大版本含义</h2><p>JavaSE（Java Standard Edition）标准版，定位在个人计算机上的应用；</p>
-<p>JavaEE(Java Enterprise Edition) 企业版，定位在服务器端的应用；</p>
-<p>JavaME(Java Micro Edition)微型版，定位在消费电子产品的应用上；</p>
-<h2 id="7PJava的特性和优势"><a href="#7PJava的特性和优势" class="headerlink" title="7PJava的特性和优势"></a>7PJava的特性和优势</h2><p>跨平台/可移植性；</p>
-<p>安全性；</p>
-<p>面向对象性；</p>
-<p>简单性；</p>
-<p>高性能；</p>
-<p>分布式；</p>
-<p>多线程；</p>
-<p>健壮性；</p>
-<h2 id="8PJava应用程序的运行机制"><a href="#8PJava应用程序的运行机制" class="headerlink" title="8PJava应用程序的运行机制"></a>8PJava应用程序的运行机制</h2><p><code>源文件（*.java）-&gt;Java编辑器-&gt;字节码文件（*.class）</code></p>
-<p>运行在JRE，JRE运行在系统平台；</p>
-<p>Java是编译型+解释型的语言；</p>
-<h2 id="9P-JDK、JRE、JVM的作用和区别"><a href="#9P-JDK、JRE、JVM的作用和区别" class="headerlink" title="9P JDK、JRE、JVM的作用和区别"></a>9P JDK、JRE、JVM的作用和区别</h2><p>JVM（Java Vitual Machine）就是一个虚拟的用于执行bytecode字节码的虚拟计算机。</p>
-<p>Java Runtime Environment(JRE)包含：Java虚拟机、库函数、运行Java应用程序所必须的文件。</p>
-<p>Java Development Kit(JDK)包含JRE，以及增加编译器和调试器等用于程序开发的文件。</p>
-<p>包含关系：JDK&gt;JRE&gt;JVM </p>
-<h2 id="10P-JDK下载和安装"><a href="#10P-JDK下载和安装" class="headerlink" title="10P JDK下载和安装"></a>10P JDK下载和安装</h2><p>1.下载JDK（对应系统版本）</p>
-<p>2.简单目录说明（bin、lib、src.zip）</p>
-<h2 id="11P-JDK环境变量PATH设置"><a href="#11P-JDK环境变量PATH设置" class="headerlink" title="11P JDK环境变量PATH设置"></a>11P JDK环境变量PATH设置</h2><p>1.配置JAVA_HOME</p>
-<p>2.Windows配置Path（%JAVA_HOME%\bin;）</p>
-<p>Mac</p>
-<p>vim ~/.bash_profile 配置JDK地址</p>
-<h2 id="12P-控制台测试JDK安装和配置"><a href="#12P-控制台测试JDK安装和配置" class="headerlink" title="12P 控制台测试JDK安装和配置"></a>12P 控制台测试JDK安装和配置</h2><p>Windows: cmd 输入 java-version</p>
-<h2 id="13P-写出第一个Java程序"><a href="#13P-写出第一个Java程序" class="headerlink" title="13P 写出第一个Java程序"></a>13P 写出第一个Java程序</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Welcome</span></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;Hello word!&quot;</span>)；</span><br><span class="line">  &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>解释并运行：<code>java Welcome</code></p>
-<h2 id="14P-第一个Java程序错误总结"><a href="#14P-第一个Java程序错误总结" class="headerlink" title="14P 第一个Java程序错误总结"></a>14P 第一个Java程序错误总结</h2><p>无</p>
-<h2 id="15P-第一个Java程序详细解析"><a href="#15P-第一个Java程序详细解析" class="headerlink" title="15P 第一个Java程序详细解析"></a>15P 第一个Java程序详细解析</h2><p>1.Java大小写敏感的语言；</p>
-<p>2.一个源文件中至多只能声明一个public的类，其他类的个数不限。</p>
-<h1 id="2020年10月24日"><a href="#2020年10月24日" class="headerlink" title="2020年10月24日"></a>2020年10月24日</h1><h2 id="16P-最常用的DOS命令"><a href="#16P-最常用的DOS命令" class="headerlink" title="16P 最常用的DOS命令"></a>16P 最常用的DOS命令</h2><p>1.cd 目录路径 进入一个目录</p>
-<p>2.cd .. 进入父目录</p>
-<p>3.dir 查看本目录下的文件和子目录列表</p>
-<p>4.cls 清楚屏幕命令</p>
-<p>5.上下键 查找敲过的命令</p>
-<p>6.Tab键 自动补齐命令</p>
-<h2 id="17P-常用开发工具介绍"><a href="#17P-常用开发工具介绍" class="headerlink" title="17P 常用开发工具介绍"></a>17P 常用开发工具介绍</h2><p>eclipse</p>
-<p>IntelliJ IDE</p>
-<p>NetBeans</p>
-<h2 id="18P-eclipse开发环境使用原因"><a href="#18P-eclipse开发环境使用原因" class="headerlink" title="18P eclipse开发环境使用原因"></a>18P eclipse开发环境使用原因</h2><p>无</p>
-<h2 id="19P-eclipse下载版本选择和使用"><a href="#19P-eclipse下载版本选择和使用" class="headerlink" title="19P eclipse下载版本选择和使用"></a>19P eclipse下载版本选择和使用</h2><p>Eclipse IDE for Java Developers（根据安装的JDK）</p>
-<h2 id="20P-eclipse下建立Java项目"><a href="#20P-eclipse下建立Java项目" class="headerlink" title="20P eclipse下建立Java项目"></a>20P eclipse下建立Java项目</h2><p>目录结构（src、bin、JRE）</p>
-<h1 id="2020年10月25日"><a href="#2020年10月25日" class="headerlink" title="2020年10月25日"></a>2020年10月25日</h1><h2 id="21P-eclipse开发和运行Java程序"><a href="#21P-eclipse开发和运行Java程序" class="headerlink" title="21P eclipse开发和运行Java程序"></a>21P eclipse开发和运行Java程序</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Welcome</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// TODO Auto-generated method stub</span></span><br><span class="line">		System.out.println(<span class="string">&quot;Welcome Java&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="22P-37分钟零基础开发桌球小游戏项目"><a href="#22P-37分钟零基础开发桌球小游戏项目" class="headerlink" title="22P 37分钟零基础开发桌球小游戏项目"></a>22P 37分钟零基础开发桌球小游戏项目</h2><p>无</p>
-<h2 id="23P-注释"><a href="#23P-注释" class="headerlink" title="23P 注释"></a>23P 注释</h2><p>单行注释： //</p>
-<p>多行注释：<code> 以/*开头，以*/结尾</code></p>
-<p>文档注释：<code> 以/**开头，以*/结尾</code></p>
-<h2 id="24P-标识符规则"><a href="#24P-标识符规则" class="headerlink" title="24P 标识符规则"></a>24P 标识符规则</h2><p>1.以字母、下划线、美元符号开头$开头，其他部分是字母、下划线、$、数字的任意组合；</p>
-<p>2.Java标识符大小写敏感，且长度无限制；</p>
-<p>3.标识符不可以是Java的关键字；</p>
-<p>4.类名首字母大写，方法和变量的标识符遵循驼峰命名原则；</p>
-<h2 id="25P-Java的关键字-保留字"><a href="#25P-Java的关键字-保留字" class="headerlink" title="25P Java的关键字/保留字"></a>25P Java的关键字/保留字</h2><p>边用边学边记</p>
-<h2 id="2020年10月26日"><a href="#2020年10月26日" class="headerlink" title="2020年10月26日"></a>2020年10月26日</h2><h2 id="26P-变量的本质"><a href="#26P-变量的本质" class="headerlink" title="26P 变量的本质"></a>26P 变量的本质</h2><p>变量=可操作的存储空间；通过变量名来访问对应的存储空间，从而操作这个存储空间的值；</p>
-<h2 id="27P-变量的分类"><a href="#27P-变量的分类" class="headerlink" title="27P 变量的分类"></a>27P 变量的分类</h2><p>局部变量（local variable）方法或语句块内部定义的变量。生命周期是从声名位置开始到方法或语句块执行完毕为止；必须进行初始化操作；</p>
-<p>成员变量/实例变量（member variable）方法外部、类的内部定义的变量。从属于对象，生命周期伴随对象始终；可以默认初始化；</p>
-<p>静态变量/类变量（static variable）使用static定义，从属于类，生命周期伴随类始终，从类加载到卸载。</p>
-<h2 id="28P-常量（Constant）和final"><a href="#28P-常量（Constant）和final" class="headerlink" title="28P 常量（Constant）和final"></a>28P 常量（Constant）和final</h2><p>常量通常指的是一个固定值，使用final来定义一个常量，一旦被初始化以后就不能再修改；</p>
-<p>变量和常量命令规范，见名知意；</p>
-<p>常量命名采用大写字母和下划线的方式；</p>
-<p>方法名：首字母小写和驼峰原则；</p>
-<h2 id="29P-基本类型数据介绍"><a href="#29P-基本类型数据介绍" class="headerlink" title="29P 基本类型数据介绍"></a>29P 基本类型数据介绍</h2><p>数值型-byte、short、int、long、float、double</p>
-<p>字符型（文本型）-char</p>
-<p>布尔型-boolean</p>
-<h2 id="30P-整型变量和整型常量"><a href="#30P-整型变量和整型常量" class="headerlink" title="30P 整型变量和整型常量"></a>30P 整型变量和整型常量</h2><table>
-<thead>
-<tr>
-<th align="center">类型</th>
-<th align="center">占用存储空间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">byte</td>
-<td align="center">1字节</td>
-</tr>
-<tr>
-<td align="center">short</td>
-<td align="center">2字节</td>
-</tr>
-<tr>
-<td align="center">int</td>
-<td align="center">4字节</td>
-</tr>
-<tr>
-<td align="center">Long</td>
-<td align="center">8字节</td>
-</tr>
-</tbody></table>
-<p>八进制，以0开头；</p>
-<p>十六进制，以0x或0X开头；</p>
-<p>二进制，以0b或0B开头；</p>
-<h2 id="31P-浮点型变量和BigDecimal的使用"><a href="#31P-浮点型变量和BigDecimal的使用" class="headerlink" title="31P 浮点型变量和BigDecimal的使用"></a>31P 浮点型变量和BigDecimal的使用</h2><table>
-<thead>
-<tr>
-<th align="center">类型</th>
-<th align="center">占用存储空间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">float</td>
-<td align="center">4字节</td>
-</tr>
-<tr>
-<td align="center">double</td>
-<td align="center">8字节</td>
-</tr>
-</tbody></table>
-<p>科学记数形式，314e2(3.14)、314E2（314.0）；</p>
-<p>java.math包下两个类：BigInteger和BigDecimal可以处理任意长度的数值；</p>
-<h2 id="32P-字符类型"><a href="#32P-字符类型" class="headerlink" title="32P 字符类型"></a>32P 字符类型</h2><table>
-<thead>
-<tr>
-<th align="center">类型</th>
-<th align="center">占用存储空间</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">Char</td>
-<td align="center">2个字节</td>
-</tr>
-</tbody></table>
-<p>Unicode编码，允许有65536个字符；也可以采用十六进制的值表示；</p>
-<table>
-<thead>
-<tr>
-<th align="center">转义符</th>
-<th align="center">含义</th>
-<th align="center">Unicode值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">\b</td>
-<td align="center">推格(backspace)</td>
-<td align="center">\u0008</td>
-</tr>
-<tr>
-<td align="center">\n</td>
-<td align="center">换行</td>
-<td align="center">\u000a</td>
-</tr>
-<tr>
-<td align="center">\r</td>
-<td align="center">回车</td>
-<td align="center">\u000d</td>
-</tr>
-<tr>
-<td align="center">\t</td>
-<td align="center">制表符(tab)</td>
-<td align="center">\u0009</td>
-</tr>
-<tr>
-<td align="center">\ “</td>
-<td align="center">双引号</td>
-<td align="center">\u0022</td>
-</tr>
-<tr>
-<td align="center">\ ‘</td>
-<td align="center">单引号</td>
-<td align="center">\u0027</td>
-</tr>
-<tr>
-<td align="center">\ \</td>
-<td align="center">反斜杠</td>
-<td align="center">\u005c</td>
-</tr>
-</tbody></table>
-<h2 id="33P-布尔型"><a href="#33P-布尔型" class="headerlink" title="33P 布尔型"></a>33P 布尔型</h2><p>boolean类型有两个常量值，true和false，在内存中占一位；</p>
-<h2 id="34P-运算符"><a href="#34P-运算符" class="headerlink" title="34P 运算符"></a>34P 运算符</h2><p>无</p>
-<h2 id="35P-算数运算符"><a href="#35P-算数运算符" class="headerlink" title="35P 算数运算符"></a>35P 算数运算符</h2><p><code>+ - * / % 二元运算符</code></p>
-<p><code> ++、-- 一元运算符</code> </p>
-<h1 id="2020年10月27日"><a href="#2020年10月27日" class="headerlink" title="2020年10月27日"></a>2020年10月27日</h1><h2 id="36P-赋值及其扩展运算符"><a href="#36P-赋值及其扩展运算符" class="headerlink" title="36P 赋值及其扩展运算符"></a>36P 赋值及其扩展运算符</h2><p><code> 运算符 +=、-=、*=、/=、%=</code></p>
-<h2 id="37P-关系运算符"><a href="#37P-关系运算符" class="headerlink" title="37P 关系运算符"></a>37P 关系运算符</h2><table>
-<thead>
-<tr>
-<th align="center">运算符</th>
-<th align="center">含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">==</td>
-<td align="center">等于</td>
-</tr>
-<tr>
-<td align="center">!=</td>
-<td align="center">不等于</td>
-</tr>
-<tr>
-<td align="center">&gt;</td>
-<td align="center">大于</td>
-</tr>
-<tr>
-<td align="center">&lt;</td>
-<td align="center">小于</td>
-</tr>
-<tr>
-<td align="center">&gt;=</td>
-<td align="center">大于或等于</td>
-</tr>
-<tr>
-<td align="center">&lt;=</td>
-<td align="center">小于或等于</td>
-</tr>
-</tbody></table>
-<h2 id="38P-逻辑运算符"><a href="#38P-逻辑运算符" class="headerlink" title="38P 逻辑运算符"></a>38P 逻辑运算符</h2><table>
-<thead>
-<tr>
-<th align="center">运算符</th>
-<th align="center">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">逻辑与 &amp;</td>
-<td align="center">两个都为true,结果为true</td>
-</tr>
-<tr>
-<td align="center">逻辑或|</td>
-<td align="center">两个有一个为true，结果为true</td>
-</tr>
-<tr>
-<td align="center">短路与&amp;&amp;</td>
-<td align="center">只要有一个为false，结果为false</td>
-</tr>
-<tr>
-<td align="center">短路或||</td>
-<td align="center">只要有一个为true，结果直接为true</td>
-</tr>
-<tr>
-<td align="center">逻辑非!</td>
-<td align="center">取反</td>
-</tr>
-<tr>
-<td align="center">逻辑异或^</td>
-<td align="center">相同为false，不同为true</td>
-</tr>
-</tbody></table>
-<h2 id="39P-位运算符"><a href="#39P-位运算符" class="headerlink" title="39P 位运算符"></a>39P 位运算符</h2><p>二进制位的运算；</p>
-<table>
-<thead>
-<tr>
-<th align="center">位运算符</th>
-<th align="center">说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">～</td>
-<td align="center">取反</td>
-</tr>
-<tr>
-<td align="center">&amp;</td>
-<td align="center">按位与</td>
-</tr>
-<tr>
-<td align="center">｜</td>
-<td align="center">按位或</td>
-</tr>
-<tr>
-<td align="center">^</td>
-<td align="center">按位异或</td>
-</tr>
-<tr>
-<td align="center">&lt;&lt;</td>
-<td align="center">左移运算符，左移1位相当于乘2</td>
-</tr>
-<tr>
-<td align="center">&gt;&gt;</td>
-<td align="center">右移运算符，右移1位相当于除2取商</td>
-</tr>
-</tbody></table>
-<h2 id="40P-字符串连接"><a href="#40P-字符串连接" class="headerlink" title="40P 字符串连接"></a>40P 字符串连接</h2><p><code>字符串连接符+</code>；</p>
-<h2 id="41P-条件运算符"><a href="#41P-条件运算符" class="headerlink" title="41P 条件运算符"></a>41P 条件运算符</h2><h2 id="42P-运算符优先级"><a href="#42P-运算符优先级" class="headerlink" title="42P 运算符优先级"></a>42P 运算符优先级</h2><h2 id="43P-自动类型转化"><a href="#43P-自动类型转化" class="headerlink" title="43P 自动类型转化"></a>43P 自动类型转化</h2><h2 id="44P-强制类型转化"><a href="#44P-强制类型转化" class="headerlink" title="44P 强制类型转化"></a>44P 强制类型转化</h2><h2 id="45P-基本类型常见错误"><a href="#45P-基本类型常见错误" class="headerlink" title="45P 基本类型常见错误"></a>45P 基本类型常见错误</h2><h1 id="2020年10月28日"><a href="#2020年10月28日" class="headerlink" title="2020年10月28日"></a>2020年10月28日</h1><h1 id="2020年10月29日"><a href="#2020年10月29日" class="headerlink" title="2020年10月29日"></a>2020年10月29日</h1><h1 id="2020年10月30日"><a href="#2020年10月30日" class="headerlink" title="2020年10月30日"></a>2020年10月30日</h1><h1 id="2020年10月31日"><a href="#2020年10月31日" class="headerlink" title="2020年10月31日"></a>2020年10月31日</h1><h1 id="2020年11月01日"><a href="#2020年11月01日" class="headerlink" title="2020年11月01日"></a>2020年11月01日</h1><h1 id="2020年11月02日"><a href="#2020年11月02日" class="headerlink" title="2020年11月02日"></a>2020年11月02日</h1><h1 id="2020年11月03日"><a href="#2020年11月03日" class="headerlink" title="2020年11月03日"></a>2020年11月03日</h1><h1 id="2020年11月04日"><a href="#2020年11月04日" class="headerlink" title="2020年11月04日"></a>2020年11月04日</h1><h1 id="2020年11月05日"><a href="#2020年11月05日" class="headerlink" title="2020年11月05日"></a>2020年11月05日</h1><h1 id="2020年11月06日"><a href="#2020年11月06日" class="headerlink" title="2020年11月06日"></a>2020年11月06日</h1><h1 id="2020年11月07日"><a href="#2020年11月07日" class="headerlink" title="2020年11月07日"></a>2020年11月07日</h1><h1 id="2020年11月08日"><a href="#2020年11月08日" class="headerlink" title="2020年11月08日"></a>2020年11月08日</h1><p><code>每日进度  &gt; = 5P</code></p>
-<p><a href="https://www.bilibili.com/video/av59529105/?pikaqiu">视频地址</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java基础记录</tag>
       </tags>
   </entry>
 </search>
