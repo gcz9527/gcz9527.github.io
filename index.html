@@ -159,6 +159,230 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/21/HTML/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpeg">
+      <meta itemprop="name" content="Genius Zhang">
+      <meta itemprop="description" content="记录生活&不如勇敢">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="了">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/21/HTML/" class="post-title-link" itemprop="url">HTML</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-04-21 15:14:11 / 修改时间：15:42:10" itemprop="dateCreated datePublished" datetime="2021-04-21T15:14:11+08:00">2021-04-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%AD%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">语法</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h3><p>字体标签</p>
+<p><font></font>  </p>
+<p>规定文本的字体、字体的尺寸、字体颜色</p>
+<p>Ex:</p>
+<figure class="highlight plain"><figcaption><span>size</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>段落标签</p>
+<p></p>
+
+<p>定一个段落</p>
+<p>注释标签</p>
+<!---->
+
+<p>编写程序时，给代码的解释或提示，能提高程序代码的可读性，以便于以后的参考、修改</p>
+<p>标题标签</p>
+<p>&lt;h?&gt;&lt;/h?&gt;</p>
+<p>定义标题头的六个不同文字大小，依次显示重要性的递减，也就是权重依次降低</p>
+<p>a标签</p>
+<p><a></a></p>
+<p>使用超级链接与网络上的另一个文档相连</p>
+<p>锚点标签</p>
+<p><a name="ziti"></a></p>
+<p>同一个文档中创建指向该锚的链接</p>
+<p>无序列表</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>此列项目使用粗体圆点进行标记</p>
+<p>有序列表</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>列表项目使用数字进行标记</p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><p>table、caption、tr、th、td、border、width等</p>
+<p>用于表格、行、列、宽度、边框的制作</p>
+<p>合并行列</p>
+<p>colspan、rowspan</p>
+<p>用于将表格内的某些行、列进行合并</p>
+<p>属性标签</p>
+<p>caption、tbody、tfoot、thead</p>
+<p>用于分组设置表格的格式</p>
+<p>其他标签</p>
+<p>border 设置边框</p>
+<p>width 表格宽度</p>
+<p>bgcolor 表格背景</p>
+<p>align 表格在文档中的对齐方式</p>
+<p>cellpadding 内容和边框之间的间距</p>
+<p>cellspacing 单元格之间的间距</p>
+<p>frame</p>
+<p> void 不限时外边框</p>
+<p>border 四周都显示</p>
+<p>above 显示下部的外边框</p>
+<p>below 显示下部的外边框</p>
+<p>hsides 显示上下的外边框</p>
+<p>lhs 显示左部的外边框</p>
+<p>rhs 显示右部的外边框</p>
+<p>vsides 显示左右的外边框 </p>
+<p>rules </p>
+<p>none 内边框将不被显示</p>
+<p> rows 内边框将在行之间显示</p>
+<p>cols 内边框在列之间显示</p>
+<p>all 内边框将被显示</p>
+<p>align 三种水平对齐方式</p>
+<p>Align 三种垂直对齐方式</p>
+<h3 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h3><p>name 指定控件的名称，可重复</p>
+<p>id 指定标签的唯一标识</p>
+<p>value 输入控件的值</p>
+<p>checked 复选框组默认被选中的项目</p>
+<p>selected 列表框组默认被选中的项目</p>
+<p>src 图片框的图片来源</p>
+<p>onclick 鼠标单击事件</p>
+<p>disabled 禁用该控件</p>
+<p>multiple 允许多选</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/13/Java%E6%85%95%E8%AF%BE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpeg">
+      <meta itemprop="name" content="Genius Zhang">
+      <meta itemprop="description" content="记录生活&不如勇敢">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="了">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/13/Java%E6%85%95%E8%AF%BE/" class="post-title-link" itemprop="url">Java慕课</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-04-13 17:45:49 / 修改时间：18:00:33" itemprop="dateCreated datePublished" datetime="2021-04-13T17:45:49+08:00">2021-04-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="阶段1"><a href="#阶段1" class="headerlink" title="阶段1"></a>阶段1</h1><h2 id="第一周-环境搭建与语法入门"><a href="#第一周-环境搭建与语法入门" class="headerlink" title="第一周 环境搭建与语法入门"></a>第一周 环境搭建与语法入门</h2><h3 id="第一节-Java初识"><a href="#第一节-Java初识" class="headerlink" title="第一节 Java初识"></a>第一节 Java初识</h3><p>JVM（Java Virtual Machine）Java虚拟机，JVM是Java平台无关性实现的关键；</p>
+<p>Java程序执行过程：</p>
+<p>源文件-编辑器compiler&gt;字节码文件-解释器interpreter&gt;Program</p>
+<p>JDK（Java Development Kit）Java语言的软件开发工具包</p>
+<p>​    java-编译器，将源码转成字节码</p>
+<p>​    java-运行编辑后的Java程序（.class后缀的）</p>
+<p>JRE（Java Runtime Environment）包括Java虚拟机、Java核心类库和支持文件</p>
+<p>三者关系：JDK=JRE+开发工具集</p>
+<p>​                    JRE=JVM+JavaSE标准类库</p>
+<p>Java平台</p>
+<p>Java SE桌面程序 ；Java EEweb程序；Java ME移动设备</p>
+<h3 id="第二节-Java语法之循环、数组和方法"><a href="#第二节-Java语法之循环、数组和方法" class="headerlink" title="第二节 Java语法之循环、数组和方法"></a>第二节 Java语法之循环、数组和方法</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/04/13/Java%E6%85%95%E8%AF%BE/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/09/java8-9-11%E6%96%B0%E7%89%B9%E6%80%A7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -555,20 +779,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
